@@ -108,3 +108,9 @@ h1 {
     background-color: #2980b9; /* Более темный синий при наведении */
     transform: translateY(-2px); /* Легкий эффект "поднятия" */
 }
+
+#cat-meme-canvas {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
