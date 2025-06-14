@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кото-советчик</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <main class="app-container">
+        <h1>Кото-советчик 🎬 + 🐈</h1>
+        <p class="description">Не знаешь, какой фильм посмотреть? Котик решит за тебя!</p>
+
+        <div class="button-container">
+            <button id="movie-button">Подобрать фильм</button>
+            <button id="place-button">Подобрать ресторан</button>
+        </div>
+        <div id="result-container" class="hidden">
+
+            <div class="movie-card">
+                <img id="movie-poster" src="" alt="Постер фильма">
+                <h2 id="movie-title"></h2>
+                <p id="movie-description"></p>
+            </div>
+
+            <div class="cat-card">
+                <p class="cat-caption">...одобряет этот выбор:</p>
+                <img id="cat-image" src="" alt="Случайный котик">
+            </div>
+
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

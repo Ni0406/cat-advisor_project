@@ -1,0 +1,110 @@
+/* --- Общие стили --- */
+body {
+    background-color: #f0f2f5; /* Приятный светло-серый фон */
+    font-family: 'Montserrat', sans-serif; /* Используем шрифт, который подключили */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* --- Контейнер приложения --- */
+.app-container {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.description {
+    color: #7f8c8d;
+    margin-bottom: 30px;
+}
+
+/* --- Стили для кнопки --- */
+
+
+#decision-button:hover {
+    background-color: #2980b9; /* Более темный синий при наведении */
+    transform: translateY(-2px); /* Легкий эффект "поднятия" */
+}
+
+/* --- Стили для блока результатов --- */
+#result-container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Две колонки одинаковой ширины */
+    gap: 30px; /* Пространство между колонками */
+    align-items: start;
+    text-align: left;
+}
+
+/* Этот класс скрывает элемент. Мы его уберем с помощью JS */
+.hidden {
+    display: none;
+}
+
+/* --- Стили для карточек фильма и котика --- */
+.movie-card, .cat-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.cat-caption {
+    font-style: italic;
+    color: #7f8c8d;
+}
+
+#movie-title {
+    margin-top: 0;
+}
+
+/* --- Стили для изображений --- */
+#movie-poster, #cat-image {
+    max-width: 100%; /* Чтобы картинка не вылезала за пределы блока */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Добавьте этот блок в конец файла style.css */
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Пространство между кнопками */
+    margin-bottom: 30px;
+}
+
+/* Переименуем селектор для кнопок, чтобы он применялся к обеим */
+.button-container button {
+    background-color: #3498db; /* Синий цвет */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    flex-grow: 1; /* Кнопки будут занимать равное пространство */
+    max-width: 250px;
+}
+
+.button-container button:hover {
+    background-color: #2980b9; /* Более темный синий при наведении */
+    transform: translateY(-2px); /* Легкий эффект "поднятия" */
+}
