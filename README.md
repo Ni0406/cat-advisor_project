@@ -1,4 +1,4 @@
->Иногда нужно заходить [вот сюда](httpshttps://cors-anywhere.herokuapp.com/corsdemowww.example.com)
+>Иногда нужно заходить [вот сюда](https://cors-anywhere.herokuapp.com/corsdemowww.example.com)
 
 *Это нужно делать чтобы ибежать предупреждений(ошибок) CORS*
 
@@ -17,4 +17,4 @@ __Задачи:__
 
 _Что собственно значит это "весёлыми мемами"??_
 
-Полный текст [здесь](https://docs.google.com/document/d/1Lr0MG5TsGZ_eoOE38YD9IJ3agzhOrZcrDazMefBCfP0/edit?tab=t.0#heading=h.7bcpzjvpdug7) (пункт 9)
+Полный текст задания [здесь](https://docs.google.com/document/d/1Lr0MG5TsGZ_eoOE38YD9IJ3agzhOrZcrDazMefBCfP0/edit?tab=t.0#heading=h.7bcpzjvpdug7) (пункт 9)
